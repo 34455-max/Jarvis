@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude sensitive intelligence database and preferences from backup -->
+    <exclude domain="database" path="jarvis_intelligence.db" />
+    <exclude domain="database" path="jarvis_intelligence.db-wal" />
+    <exclude domain="database" path="jarvis_intelligence.db-shm" />
+</full-backup-content>
